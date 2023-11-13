@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana;
+}
+.add{
+    width: 180px;
+    border-radius: 50px !important;
+}
+.input_fields{
+    width: 300px !important;
+}
+.table_holder{
+    height: 455px;
+    overflow-y: hidden;
+    border: 1px solid rgb(0, 0, 0,0.3);
+}
+table {
+    display: flex;
+    flex-flow: column;
+}
+thead {
+    flex: 0 0 auto;
+}
+tbody {
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: overlay;
+    height: 400px;
+    font-size: 14px;
+}
+table .table_btn{
+    text-align: center;
+}

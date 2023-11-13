@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana;
+}
+#orderform{
+    background-color: #fff;
+}
+.add{
+    width: 180px;
+    border-radius: 50px !important;
+}
+.input_fields{
+    width: 300px !important;
+}
+.table_holder{
+    height: 265px;
+    overflow-y: hidden;
+    border: 1px solid rgb(0, 0, 0,0.3);
+}
+table {
+    display: flex;
+    flex-flow: column;
+}
+thead {
+    flex: 0 0 auto;
+}
+tbody {
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: overlay;
+    height: 200px;
+}
+tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+table .table_btn{
+    text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

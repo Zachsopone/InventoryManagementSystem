@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana;
+}
+.add{
+    width: 180px;
+    border-radius: 50px !important;
+}
+.input_fields{
+    width: 300px !important;
+}
+.table_holder{
+    height: 265px;
+    overflow-y: hidden;
+    border: 1px solid rgb(0, 0, 0,0.3);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+table tbody .fa-trash{
+    color:red;
+}
+
+table .table_btn {
+    text-align: center;
+}
